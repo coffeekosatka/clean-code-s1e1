@@ -22,11 +22,21 @@
     text-align: center;
   }
 }
+.heading-1 {
+  visibility: hidden;
+  position: absolute;
+}
+
 .tasks-box {
   display: block;
   width: 500px;
   margin: 0 auto 0;
 }
+
+#adding-tasks {
+  margin: 1em 0 1em 0;
+}
+
 .task {
   width: 56%;
   display: inline-block;
@@ -40,7 +50,7 @@
   padding: 0px;
 }
 .task-list-element,
-.heading-3 {
+.heading-2 {
   list-style: none;
 }
 .checkbox .task-name {
@@ -59,7 +69,7 @@
   color: #3a3a3a;
 }
 /* Heading */
-.heading-3,
+.heading-2,
 .new-task-name {
   color: #333;
   font-weight: 700;
