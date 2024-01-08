@@ -39,7 +39,8 @@
   margin: 0;
   padding: 0px;
 }
-.task-list-element {
+.task-list-element,
+.heading-3 {
   list-style: none;
 }
 .checkbox .task-name {
