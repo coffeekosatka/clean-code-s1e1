@@ -30,7 +30,7 @@
 .task {
   width: 56%;
   display: inline-block;
-  flex-grow: 1
+  flex-grow: 1;
 }
 .new-task-wrapper {
   display: flex;
@@ -116,7 +116,7 @@
   width: 226px;
 }
 .task-list-element > .checkbox-text {
-  width: 226px
+  width: 226px;
 }
 .delete-img {
   height: 2em;
@@ -129,18 +129,18 @@
 
 /* Completed */
 #completed-tasks .task-name {
-  text-decoration: line-through
+  text-decoration: line-through;
   color: #888;
 }
 
 /* Edit Task */
 .task-list-element .checkbox-text {
-  display: none
+  display: none;
 }
 
 .edit-mode .checkbox-text {
   display: inline-block;
-  width: 224px
+  width: 224px;
 }
 
 .edit-mode .task-name {
